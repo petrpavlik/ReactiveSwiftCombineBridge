@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ReactiveSwift",
+        "repositoryURL": "https://github.com/ReactiveCocoa/ReactiveSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "2260221e19eb024382a1b20cdd2c8adc4f48f8b8",
+          "version": "6.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
