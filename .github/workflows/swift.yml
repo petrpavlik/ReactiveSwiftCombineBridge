@@ -12,6 +12,10 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    - name: Setup Xcode version
+      uses: maxim-lobanov/setup-xcode
+      with:
+        xcode-version: latest-stable
     - uses: actions/checkout@v2
     - name: Build
       run: swift build -v
